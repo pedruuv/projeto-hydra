@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #302c42;
+  font-size: 100%;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+}
+
+.cabecalho-imagem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 20%;
+}
+
+.cabecalho-imagema {
+  height: 102px;
+}
+
+.cabecalho-imagemb {
+  height: 42px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+  justify-content: space-around;
+}
+
+.cabecalho-menu-link {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.cabecalho-contato {
+  display: flex;
+  gap: 30px;
+  margin-left: 18%;
+}
+
+.cabecalho-contato-contato {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 15px;
+}
+
+.cabecalho-contato-contato:hover {
+  background: #8176af;
+}
+
+.cabecalho-contato-link {
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  border-radius: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 15px;
+  color: #343045;
+}
+
+.conteudo {
+  margin-top: 48px;
+}
+
+.conteudo-principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  color: white;
+}
+
+.conteudo-texto-destaque {
+  background: linear-gradient(91.57deg, #c0b7e8 -1.02%, #8176af 36.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  color: white;
+}
+
+.conteudo-principal-escrito-paragrafo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  width: 450px;
+}
+
+.conteudo-botao {
+  display: flex;
+  align-items: center;
+}
+
+.conteudo-botao-botao {
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  border-radius: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #343045;
+  padding: 19px;
+  width: 214px;
+  margin-left: 9%;
+}
+
+.conteudo-botao-botao:hover {
+  background: #c0b7e8;
+}
+
+.conteudo-secundario {
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  justify-content: center;
+  background: radial-gradient(
+    50% 2900.76% at 50% 53.89%,
+    rgba(58, 52, 86, 0.95) 0%,
+    #211e2e 100%
+  );
+  box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+  border-radius: 90px;
+  padding: 3.5% 0;
+}
+
+.conteudo-secundario-loc {
+  display: flex;
+  align-items: center;
+  padding-right: 2%;
+  border-right: 1px solid rgba(192, 183, 232, 0.33);
+}
+
+.conteudo-secundario-loc-imagem {
+  height: 70px;
+}
+
+.conteudo-secundario-loc-escrito {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-secundario-loc-escrito-titulo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.conteudo-secundario-loc-escrito-parag {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+.conteudo-secundario-tel {
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-right: 1px solid rgba(192, 183, 232, 0.33);
+}
+
+.conteudo-secundario-tel-imagem {
+  height: 70px;
+}
+
+.conteudo-secundario-tel-escrito {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-secundario-tel-titulo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.conteudo-secundario-tel-parag {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+.conteudo-secundario-mail {
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+}
+
+.conteudo-secundario-mail-imagem {
+  height: 70px;
+}
+
+.conteudo-secundario-mail-escrito {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-secundario-mail-escrito-titulo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.conteudo-secundario-mail-escrito-parag {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
